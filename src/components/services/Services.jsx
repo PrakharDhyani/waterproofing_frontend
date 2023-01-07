@@ -13,8 +13,8 @@ export default function services() {
             {
                 allservices.map((service) => {
                     return (
-                        <div className="card" key={service.id}>
-                            <img src = {service.img} className ="card-img-top" alt="..."/>
+                        <div className ="card serviceCard" key={service.id}>
+                            <img src = {service.img} className ="card-img-top img" alt="..."/>
                             <div className ="card-body">
                                 <p className ="card-text">service.content</p>
                             </div>
