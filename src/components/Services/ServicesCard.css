@@ -1,0 +1,46 @@
+.service-card-container{
+    max-width:31%;
+    /* max-height:10%; */
+    height: 60vh;
+    
+    margin:10px;
+    padding: 20px;
+    /* position: absolute; */
+    position: relative;
+}
+
+.s-card-img-container{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 2%;
+}
+.s-card-img{
+    border-radius: 2%;
+    width:100%;
+    height:100%;
+    transition: 0.3s all ease-in-out;
+}
+.s-card-img:hover{
+    transform: scale(1.1);
+    filter: brightness(50%);
+}
+
+.s-card-content{
+    border-radius: 2%;
+    margin-top: 60%;
+    margin-left: 10%;
+    width: 90%;
+    position: absolute;
+    background-color: white;
+    height: 40%;
+    padding: 15px;
+    
+}
+.heading{
+    border-bottom:2px dotted gray;
+    height: 45px;
+    margin-bottom: 10px;
+}

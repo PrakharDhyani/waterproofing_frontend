@@ -1,12 +1,13 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Services from './components/services/Services';
+import ServicesCard from './components/Services/ServicesCard';
+
 
 function App() {
   return (
     <>
       <Navbar />
-      <Services/>
+      <ServicesCard/>
     </>
   );
 }

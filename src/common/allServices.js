@@ -1,4 +1,4 @@
-import waterproofpng from "../images/1.jpg"
+import waterproofpng from "../images/waterproofing2.jpg"
 import epoxyfloorpng from "../images/2.png"
 import repairpng from "../images/3.jpg"
 import insulationpng from "../images/4.jpg"
