@@ -1,10 +1,15 @@
 export const setting = {
     dots: false,
+    fade:true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     swipeToSlide: true,
+    autoplay: true,
+    
+    autoplaySpeed: 3000,
+    cssEase: "linear",
     responsive: [
         {
             breakpoint: 1500,
