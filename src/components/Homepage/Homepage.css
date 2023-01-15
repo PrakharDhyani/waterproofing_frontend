@@ -1,0 +1,51 @@
+.homepage{
+    height: 100vh;
+    width: 100vw;
+    color: snow;
+}
+.coverpage{
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(50%);
+}
+.mycontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40vw;
+    position: absolute;
+    padding: 0 20px;
+    top: 50%;
+    left: 5%;
+}
+.h1{
+    font-weight: 900;
+    text-align: left;
+}
+.lead{
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    color: whitesmoke;
+    justify-content: left;
+    gap: 1rem;
+}   
+
+@media only screen and (max-width: 798px) {
+        .mycontainer{
+        top: 30%;
+    }
+    .btns{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 560px) {
+        .btns{
+            display: none;
+
+        }
+        .mycontainer{
+        top: 30%;
+    }
+}

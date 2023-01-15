@@ -1,7 +1,8 @@
 import './App.css';
-import Homepage from './components/Homepgae/Homepage';
+import Footer from './components/Footer/Footer';
+import Homepage from './components/Homepage/Homepage';
 import Navbar from './components/Navbar/Navbar';
-import ServicesCard from './components/Services/ServicesCard';
+import ServicesCard from './components/ServicesCard/ServicesCard';
 
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
     <>
       <Navbar />
       <Homepage/>
-      <ServicesCard/>
+      <ServicesCard />
+      <Footer/>
     </>
   );
 }
