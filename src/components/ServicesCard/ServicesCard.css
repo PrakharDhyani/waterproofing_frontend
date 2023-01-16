@@ -1,5 +1,11 @@
+.s-card-outer{
+    display: grid;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .service-card-container{
-    max-width:31%;
     /* max-height:10%; */
     height: 60vh;
     
@@ -17,6 +23,17 @@
     overflow: hidden;
     border-radius: 2%;
 }
+.s-card-content{
+    border-radius: 2%;
+    margin-left: 10%;
+    top: 60%;
+    width: 90%;
+    position: absolute;
+    background-color: white;
+    height: 40%;
+    padding: 10px 15px 20px 15px;
+    /* box-shadow: 2px black; */
+}
 .s-card-img{
     border-radius: 2%;
     width:100%;
@@ -25,26 +42,10 @@
 }
 .s-card-img:hover{
 
-    transform: scale(1.1);
+    transform: scale(1.05);
     filter: brightness(50%);
 }
 
-.s-card-content{
-    border-radius: 2%;
-    margin-top: 60%;
-    margin-left: 10%;
-    width: 90%;
-    position: absolute;
-    background-color: white;
-    height: 40%;
-    padding: 15px;
-    
-}
-.heading{
-    border-bottom:2px dotted gray;
-    height: 45px;
-    margin-bottom: 10px;
-}
 
 .service-content{
     margin-top: 4%;
@@ -52,8 +53,55 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
+}
+.s-card-heading{
+    font-size: 1.5rem;
+    border-bottom:2px dotted gray;
+    height: 45px;
+    margin-bottom: 10px;
+    color: rgb(	4, 54, 105,0.9);
 }
 .service-content p{
     margin-top: 1%;
+}
+.service-content h3{
+   color: rgb(	4, 54, 105,0.9);
+}
+
+/* responsive */
+@media only screen and (max-width: 1200px) {
+    .s-card-heading{
+        font-size: 1.3rem;
+    }
+
+    .s-card-content p{
+        font-size: small;
+    }
+    
+}
+@media only screen and (max-width: 992px) {
+    .s-card-outer{
+        display: grid;
+    
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .s-card-heading{
+        font-size: 1.1rem;
+    }
+    .s-card-content p{
+        font-size: small;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .s-card-outer{
+        display: grid;
+    
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr ;
+    }
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import "./Footer.css"
 export default function Footer() {
   return (
-      <div className=' Footer'>
+      <div className='Footer'>
           <div className="fst">
             <div className="handles">
                 <h3>SOCIAL MEDIA</h3>

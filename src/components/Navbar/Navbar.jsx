@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-xl navbar-dark" >
+            <nav className="navbar navbar-expand-xl " >
                 <div className="container-fluid">
                     <a className="navbar-brand ms-5" href="/">
                         < img src="./images/logo.png" alt="IMG" id='logo'/>
