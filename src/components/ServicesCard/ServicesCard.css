@@ -24,6 +24,7 @@
     transition: 0.3s all ease-in-out;
 }
 .s-card-img:hover{
+
     transform: scale(1.1);
     filter: brightness(50%);
 }
@@ -43,4 +44,16 @@
     border-bottom:2px dotted gray;
     height: 45px;
     margin-bottom: 10px;
+}
+
+.service-content{
+    margin-top: 4%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.service-content p{
+    margin-top: 1%;
 }
