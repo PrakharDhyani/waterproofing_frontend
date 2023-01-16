@@ -24,7 +24,8 @@
     transition: 0.3s all ease-in-out;
 }
 .s-card-img:hover{
-    transform: scale(1.05);
+
+    transform: scale(1.1);
     filter: brightness(50%);
 }
 

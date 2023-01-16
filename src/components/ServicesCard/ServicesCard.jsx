@@ -16,6 +16,7 @@ const ServicesCard = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae porro impedit aliquam harum eum doloremque! Pariatur totam excepturi recusandae!</p>
             
         </div>
+
         <div className='row'>
             {data.map((element)=>{
                 return(

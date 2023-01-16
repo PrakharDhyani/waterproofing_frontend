@@ -1,8 +1,10 @@
 import './App.css';
-import Homepage from './components/Homepgae/Homepage';
+import Footer from './components/Footer/Footer';
+import Homepage from './components/Homepage/Homepage';
 import Navbar from './components/Navbar/Navbar';
 import ServicesCard from './components/ServicesCard/ServicesCard';
 import ServicesSection from './components/ServicesSection/ServicesSection';
+
 
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
       <Homepage/>
       <ServicesCard/>
       <ServicesSection/>
+      <Footer/>
+
     </>
   );
 }
