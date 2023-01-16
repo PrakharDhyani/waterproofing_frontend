@@ -1,7 +1,8 @@
 import './App.css';
 import Homepage from './components/Homepgae/Homepage';
 import Navbar from './components/Navbar/Navbar';
-import ServicesCard from './components/Services/ServicesCard';
+import ServicesCard from './components/ServicesCard/ServicesCard';
+import ServicesSection from './components/ServicesSection/ServicesSection';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Homepage/>
       <ServicesCard/>
+      <ServicesSection/>
     </>
   );
 }

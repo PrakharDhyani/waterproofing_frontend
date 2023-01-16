@@ -2,16 +2,18 @@
 .navbar{
     height: 6rem;
     font-size: larger;
+    background-color: #2b2b4b;
+    color: white;
+   
 }
-
 #logo{
     height: 5rem;
     width: 5rem;
     object-fit: cover;
 }
-
 .navbar-nav{
     gap: 35px;
+   
 }
 
 .dropdown-menu{
