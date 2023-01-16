@@ -2,11 +2,13 @@
     height: 100vh;
     width: 100vw;
     color: snow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .coverpage{
     height: 100vh;
     width: 100vw;
-    filter: brightness(50%);
+    filter: brightness(60%);
+    object-fit: cover;
 }
 .mycontainer{
     display: flex;
@@ -31,6 +33,15 @@
     justify-content: left;
     gap: 1rem;
 }   
+.home-btn{
+    background-color: rgb(	4, 54, 105,0.9);
+    border: none;
+    color: white;
+}
+.home-btn:hover{
+    background-color: rgba(50, 118, 186, 0.9);
+    
+}
 
 @media only screen and (max-width: 798px) {
         .mycontainer{

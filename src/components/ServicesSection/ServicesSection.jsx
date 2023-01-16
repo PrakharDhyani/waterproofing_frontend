@@ -14,63 +14,63 @@ const ServicesSection = () => {
 
         <div className='icon-container'>
           <i class="fa-solid fa-screwdriver-wrench" style={{ zIndex: "3" }}></i>
-          <h5>Underground Structure</h5>
+          <div>Underground Structure</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-hammer"></i>
-          <h4>Industrial Projects</h4>
+          <div>Industrial Projects</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-wrench"></i>
-          <h4>Roof Terraces</h4>
+          <div>Roof Terraces</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-person-swimming"></i>
-          <h4>Swimming Pool</h4>
+          <div>Swimming Pool</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-helmet-safety"></i>
-          <h4>Expansion Joints</h4>
+          <div>Expansion Joints</div>
 
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-cube"></i>
-          <h4>Water Reservoirs</h4>
+          <div>Water Reservoirs</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-paint-roller"></i>
-          <h4>Old Structures</h4>
+          <div>Old Structures</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-box"></i>
-          <h4>Industrial Flooring</h4>
+          <div>Industrial Flooring</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-brush"></i>
-          <h4>Protective Coating</h4>
+          <div>Protective Coating</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-brands fa-connectdevelop"></i>
-          <h4>Inndustrial Insulations</h4>
+          <div>Inndustrial Insulations</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-user-tie"></i>
-          <h4>Consultancy Services</h4>
+          <div>Consultancy Services</div>
         </div>
 
         <div className='icon-container'>
           <i class="fa-solid fa-people-roof"></i>
-          <h4>Project Management</h4>
+          <div>Project Management</div>
         </div>
 
       </div>

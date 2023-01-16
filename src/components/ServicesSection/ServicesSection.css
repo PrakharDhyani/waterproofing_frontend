@@ -44,6 +44,9 @@
 .icon-container i{
     font-size: 70px;
     transition: transform 100ms ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .icon-container i:hover{
@@ -56,6 +59,67 @@
     color:white;
     padding-top: 5%;
 }
+
+.icon-container div{
+    font-size: x-large;
+    font-weight: 500;
+}
+
+/* responsive  */
+
+@media only screen and (max-width: 992px) {
+    
+    .icon-container i{
+        font-size: 50px;
+        
+    }
+    .icon-container div{
+        font-size: larger;
+        font-weight: 500;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    .icon-container i{
+        font-size: 40px;
+        
+    }
+    .icon-container div{
+        font-size: large;
+        font-weight: 450;
+    }
+    .service-section-container{
+        height: 60vh;
+    }
+   
+}
+@media only screen and (max-width: 658px) {
+    
+    .icon-container i{
+        font-size: 30px;
+        
+    }
+    .icon-container div{
+        font-size: medium;
+        font-weight: 425;
+    }
+    
+    
+}
+@media only screen and (max-width: 558px) {
+    
+    .icon-container i{
+        font-size: 25px;
+        
+    }
+    .icon-container div{
+        font-size: small;
+        font-weight: 415;
+    }
+    
+}
+
 
 
 

@@ -1,8 +1,20 @@
-import React from 'react'
+import React ,{useState,useEffect} from 'react'
 import {data} from '../../common/ServiceCardData.js';
 import './ServicesCard.css'
 
 const ServicesCard = () => {
+
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+
+    {/* Performs similarly to componentDidMount in classes */}
+    useEffect(() => {
+        window.addEventListener("resize", () => {
+            const ismobile = window.innerWidth < 1200;
+            if (ismobile !== isMobile) setIsMobile(ismobile);
+        }, false);
+    }, [isMobile]);
+
+    console.log(isMobile);
   return (
     <div className='container'>
 
@@ -17,18 +29,18 @@ const ServicesCard = () => {
             
         </div>
 
-        <div className='row'>
+        <div className='s-card-outer'>
             {data.map((element)=>{
                 return(
-                    <div className='service-card-container col-md-4' key={element.id}>
-                        {console.log(element.img)}
+                    <div className="service-card-container" key={element.id}>
+                    
                         <div className='s-card-img-container'>
                             <img src={element.img} alt="img" className='s-card-img'/>
                         </div>
 
                         <div className='s-card-content'>
-                            <div className=''>
-                                <h3 className="heading">{element.heading}</h3>
+                            <div className='s-card-heading'>
+                                {element.heading}
                             </div>
                             <p>{element.content}</p>
                         </div>
