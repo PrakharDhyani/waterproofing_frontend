@@ -24,7 +24,7 @@ const ServicesCard = () => {
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis totam facilis optio minima ipsam blanditiis esse qui porro. Harum vel dolore earum aliquid recusandae commodi accusamus eius voluptatibus tenetur minima, consectetur nesciunt asperiores neque deserunt expedita et quos culpa iusto minus illum explicabo! Sequi, alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, assumenda.</p> */}
 
-            <h3>___ Our Experties ___</h3>
+            <h3> <strong> ___ Our Experties ___</strong> </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae porro impedit aliquam harum eum doloremque! Pariatur totam excepturi recusandae!</p>
             
         </div>
@@ -40,7 +40,7 @@ const ServicesCard = () => {
 
                         <div className='s-card-content'>
                             <div className='s-card-heading'>
-                                {element.heading}
+                                <strong>{element.heading}</strong>
                             </div>
                             <p>{element.content}</p>
                         </div>
