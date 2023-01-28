@@ -1,22 +1,51 @@
 .Footer{
-    padding: 2rem 2rem;
+    background-image: linear-gradient(rgb(62, 52, 52),rgba(62, 52, 52,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
+    padding: 3rem 3rem;
     display: flex;
     justify-content: center;
-    background-color:black ;
     width: 100vw;
     color: whitesmoke;
-    gap: 2rem ;
+    gap: 2rem ; 
+}
+
+ul{
+    list-style-type: none;
 }
 .fst, .snd{
     display:flex;
     gap: 3rem;
+    width: 50vw;
 }
 
+.logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
 .links{
     display: flex;
     justify-content: left;
     gap: 1rem;
     font-size: x-large;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footerLi > li:not(:first-of-type) {
+    margin-top: 1.2em;
+}
+
+.footerLi >li:not(:last-of-type) {
+    margin-bottom: 1.2em;
+}
+
+.fst > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: left;
 }
 
 @media only screen and (max-width: 780px) {
