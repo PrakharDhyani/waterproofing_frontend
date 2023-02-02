@@ -67,3 +67,10 @@
 .image-content:hover{
     opacity: 1;
 } */
+
+@media only screen and (max-width: 1024px) {
+    
+   .s-card-img{
+    width: 45vw;
+   }
+}

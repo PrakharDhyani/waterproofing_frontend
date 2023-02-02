@@ -166,18 +166,20 @@
     
     .features-container{
         display: block;
-        height: 180vh;
+        height: 100vh;
     }
 
     .features-left{
         width: 100%;
-        height:50%;
+        height:100%;
     }
-    .features-right{
-        margin-top: 2%;
+
+    .features-left-content{
         width: 100%;
-        
-        height:50%;
+    }
+
+    .features-right{
+        display: none;
     }
 
     .f-left-img-container{
