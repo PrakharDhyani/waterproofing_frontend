@@ -1,6 +1,8 @@
 import React ,{useState,useEffect} from 'react'
 import {data} from '../../common/ServiceCardData.js';
 import './ServicesCard.css'
+import {setting} from '../../common/setting';
+import Slider from 'react-slick';
 
 const ServicesCard = () => {
 
@@ -19,17 +21,13 @@ const ServicesCard = () => {
     <div className='container'>
 
         <div className='service-content'>
-            {/* <h1>Complete Waterproofing System INC</h1>
-            <span>An ISO 9001:2015 Certified Company</span>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis totam facilis optio minima ipsam blanditiis esse qui porro. Harum vel dolore earum aliquid recusandae commodi accusamus eius voluptatibus tenetur minima, consectetur nesciunt asperiores neque deserunt expedita et quos culpa iusto minus illum explicabo! Sequi, alias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, assumenda.</p> */}
 
             <h3> <strong> ___ Our Experties ___</strong> </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae porro impedit aliquam harum eum doloremque! Pariatur totam excepturi recusandae!</p>
             
         </div>
 
-        <div className='s-card-outer'>
+        <Slider {...setting}>
             {data.map((element)=>{
                 return(
                     <div className="service-card-container" key={element.id}>
@@ -38,17 +36,22 @@ const ServicesCard = () => {
                             <img src={element.img} alt="img" className='s-card-img'/>
                         </div>
 
-                        <div className='s-card-content'>
-                            <div className='s-card-heading'>
-                                <strong>{element.heading}</strong>
-                            </div>
-                            <p className='CardPara'>{element.content}</p>
+                        
+                        <div className='s-card-heading'>
+                            <strong>{element.heading}</strong>
+                        </div>
+                        
+                        <div className='image-content'>
+                            <p >{element.content}</p>
                         </div>
                     </div>
+                   
                 );
             })}
+            </Slider>
         </div>
-    </div>
+
+    
   )
 }
 
