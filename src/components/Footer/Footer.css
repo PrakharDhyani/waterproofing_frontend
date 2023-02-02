@@ -1,6 +1,6 @@
 .Footer{
     background-image: linear-gradient(rgb(12, 28, 36),rgba(12, 28, 36,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
-    padding: 3rem 3rem;
+    padding: 3vh 3vw;
     display: flex;
     justify-content: center;
     width: 100vw;
@@ -48,13 +48,13 @@ a{
     justify-content: left;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 978px) {
      .fst,.snd{
         display: block;
         padding: 5px 5px;
      }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 550px) {
      .Footer{
         display: block;
         padding: 5px 5px;

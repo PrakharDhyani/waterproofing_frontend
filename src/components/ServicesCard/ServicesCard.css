@@ -1,4 +1,7 @@
-
+.ServiceCard{
+    display: flex;
+    flex-direction: column;
+}
 
 .service-content{
     margin-top:6%;
@@ -10,9 +13,13 @@
     color: rgb(37, 150, 190);
 }
 
+.cards-container{
+    width: 86vw;
+    margin: 0 auto;
+}
 .service-card-container{
     height: 60vh;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +37,7 @@
 
 .s-card-img{
     height: 100%;
-    width: 25vw;
+    width: 80%;
     object-fit: cover;
 }
 
@@ -42,7 +49,7 @@
     font-size: x-large;
     font-weight: 550;
     color: rgb(37, 150, 190);
-    text-align: center;
+    text-align: left;
 }
 
 /* .image-content{
@@ -69,8 +76,29 @@
 } */
 
 @media only screen and (max-width: 1024px) {
+       
+    .service-card-container{
+        width: 50%;
+    }
+    .s-card-img{
+        width: 100%;
+    }
+    .s-card-img-container{
+        width:38vw;
+    }
+
+}
+@media only screen and (max-width: 550px) {
     
-   .s-card-img{
-    width: 45vw;
-   }
+    .service-card-container{
+        width: 100%;
+    }
+    .s-card-img{
+        width: 100%;
+        margin: 0 20px;
+    }
+    .s-card-img-container{
+        width:68vw;
+    }   
+
 }

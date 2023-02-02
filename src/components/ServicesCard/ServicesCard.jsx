@@ -18,7 +18,7 @@ const ServicesCard = () => {
 
     console.log(isMobile);
   return (
-    <div className='container'>
+    <div className='ServiceCard'>
 
         <div className='service-content'>
 
@@ -26,8 +26,9 @@ const ServicesCard = () => {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam molestiae porro impedit aliquam harum eum doloremque! Pariatur totam excepturi recusandae!</p>
             
         </div>
-
-        <Slider {...setting}>
+    <div className='cards-container' >
+              
+        <Slider {...setting}  >
             {data.map((element)=>{
                 return(
                     <div className="service-card-container" key={element.id}>
@@ -46,10 +47,11 @@ const ServicesCard = () => {
                         </div>
                     </div>
                    
-                );
-            })}
+                   );
+                })}
             </Slider>
         </div>
+    </div>
 
     
   )
