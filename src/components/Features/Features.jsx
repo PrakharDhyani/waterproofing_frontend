@@ -14,7 +14,8 @@ const Features = () => {
 
         <div className='features-left'>
             <b>____ Why Choose us?</b>
-            <h1><b>We provide the best Waterproofing Services</b></h1>
+
+            <h1>We provide the best Waterproofing Services</h1>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita ad laboriosam, illo suscipit mollitia, quos dolore rem, nulla ab id nobis itaque.</p>
 
