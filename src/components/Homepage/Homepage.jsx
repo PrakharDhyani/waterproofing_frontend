@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Homepage.css"
-
+import Navbar from "../Navbar/Navbar"
 
 export default function Homepage() {
   return (
     <div className='homepage'>
-      <img className='coverpage' src="../images/coverpage.jpg" alt="coverpage" />
+      <img className='coverpage' src="../images/waterBackground1.jpg" alt="coverpage" />
+      <Navbar/>
       <div className="mycontainer">
         <h1 className='h1'>Complete Waterproofing System INC</h1>
         <p className='lead'>

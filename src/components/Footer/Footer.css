@@ -1,5 +1,5 @@
 .Footer{
-    background-image: linear-gradient(rgb(62, 52, 52),rgba(62, 52, 52,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
+    background-image: linear-gradient(rgb(12, 28, 36),rgba(12, 28, 36,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
     padding: 3rem 3rem;
     display: flex;
     justify-content: center;

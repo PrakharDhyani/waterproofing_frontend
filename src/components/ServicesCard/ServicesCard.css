@@ -15,6 +15,10 @@
     position: relative;
 }
 
+.CardPara{
+    display: none;
+}
+
 .s-card-img-container{
     position: absolute;
     width: 100%;
@@ -30,7 +34,7 @@
     width: 90%;
     position: absolute;
     background-color: white;
-    height: 40%;
+    height: 20%;
     padding: 10px 15px 20px 15px;
     /* box-shadow: 2px black; */
 }
@@ -41,7 +45,6 @@
     transition: 0.3s all ease-in-out;
 }
 .s-card-img:hover{
-
     transform: scale(1.05);
     filter: brightness(50%);
 }

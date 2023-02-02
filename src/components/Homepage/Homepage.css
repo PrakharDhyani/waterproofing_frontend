@@ -14,14 +14,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 40vw;
+    width: 60vw;
     position: absolute;
     padding: 0 20px;
     top: 50%;
     left: 5%;
+    font-family: "coolvetica";
 }
 .h1{
     font-weight: 900;
+    font-size: xxx-large;
     text-align: left;
 }
 .lead{

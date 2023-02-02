@@ -1,0 +1,8 @@
+.Client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33vw;
+    justify-content: center;
+    gap: 1rem;
+}

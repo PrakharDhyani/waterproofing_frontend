@@ -7,7 +7,7 @@ const ServicesSection = () => {
     <div className='service-section-container'>
 
       <div className='s-section-heading'>
-        <h3>___ Services We Offer ___</h3>
+        <h3> <strong> ___ Services We Offer ___</strong> </h3>
       </div>
 
       <div className='s-section-container-in'>

@@ -1,19 +1,28 @@
 
+.Navbar{
+  position: absolute;
+    top: 0%;
+    left: 0%;
+}
 .navbar{
-    height: 6rem;
-    font-size: larger;
-    background-color: white;
-    color: black;
+  height: 6rem;
+  font-size: larger;
+  background-color: white;
+  background: transparent;
    
 }
 #logo{
     height: 5rem;
     width: 5rem;
     object-fit: cover;
+    margin-left: 8rem;
 }
 .navbar-nav{
     gap: 35px;
    
+}
+.Navli:hover{
+  background-color: #61b6e2;
 }
 
 .dropdown-menu{

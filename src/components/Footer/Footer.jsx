@@ -12,7 +12,7 @@ export default function Footer() {
         });
     })
   return (
-      <div className='Footer' data-aos="flip-right" >
+      <div className='Footer' >
           <div className="fst">
               <div >
               <div className="logo">

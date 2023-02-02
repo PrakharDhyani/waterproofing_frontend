@@ -5,7 +5,7 @@
     height: 80vh;
     width: 100vw;
 
-    background-image: linear-gradient(rgb(	4, 54, 105,0.9),rgba(	4, 54, 105, 0.9)), url('../../../public/images/ConstructionWorker2.jpg') ;
+    background-image: linear-gradient(rgb(37, 150, 190,0.9),rgba(37, 150, 190,0.9)), url('../../../public/images/ConstructionWorker2.jpg') ;
     background-size: 100% 80%;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */

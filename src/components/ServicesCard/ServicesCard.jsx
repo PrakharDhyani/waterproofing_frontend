@@ -42,10 +42,9 @@ const ServicesCard = () => {
                             <div className='s-card-heading'>
                                 <strong>{element.heading}</strong>
                             </div>
-                            <p>{element.content}</p>
+                            <p className='CardPara'>{element.content}</p>
                         </div>
                     </div>
-
                 );
             })}
         </div>
