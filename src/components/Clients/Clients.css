@@ -1,9 +1,9 @@
 .Clients{
     background-image: linear-gradient(rgb(37, 150, 190,0.9),rgba(37, 150, 190,0.9)), url('../../../public/images/waterproofingBackground.jpg');
-    height: 65vh;
+    height: 62vh;
     color: snow;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     text-align: center;
     justify-content: space-around;
     background-repeat: no-repeat; /* Do not repeat the image */

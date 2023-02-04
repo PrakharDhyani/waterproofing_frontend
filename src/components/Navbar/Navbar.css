@@ -43,6 +43,15 @@
       -webkit-animation-fill-mode: both;
     }
 }
+@media (max-width: 1200px) {
+   .Navbar{
+    width: 100%;
+
+  }
+  .navbar-expand-xl{
+    width: 100%;
+  }
+}
   
 @keyframes slideIn {
     0% {
