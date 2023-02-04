@@ -4,10 +4,13 @@
     top: 0%;
     left: 0%;
     height: 6rem;
-    font-size: larger;
+    font-size: x-large;
     background-color: white;
     background: transparent;
-}
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 
 #logo{
     height: 5rem;
