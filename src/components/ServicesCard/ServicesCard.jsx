@@ -7,7 +7,7 @@ import Slider from 'react-slick';
 const ServicesCard = () => {
 
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
-
+    const [hover, setHover] = useState(true)
     {/* Performs similarly to componentDidMount in classes */}
     useEffect(() => {
         window.addEventListener("resize", () => {
@@ -34,18 +34,27 @@ const ServicesCard = () => {
                     <div className="service-card-container" key={element.id}>
                     
                         <div className='s-card-img-container'>
+
                             <img src={element.img} alt="img" className='s-card-img'/>
 
                             <div class="overlay">
                                 <div class="image-text">{element.content}</div>
                             </div>
+
+                            <img src={element.img} alt="img"  onMouseOver={()=>setHover(true)} onMouseOut={()=>setHover(false)} className='s-card-img'/>
+
                         </div>
 
                         
                         <div className='s-card-heading'>
                             <strong>{element.heading}</strong>
                         </div>
-            
+
+                        
+                        <div className='image-content' style={{display:hover?"block":"none"}} >
+                            <p >{element.content}</p>
+                        </div>
+
                     </div>
                    
                    );
