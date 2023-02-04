@@ -35,16 +35,17 @@ const ServicesCard = () => {
                     
                         <div className='s-card-img-container'>
                             <img src={element.img} alt="img" className='s-card-img'/>
+
+                            <div class="overlay">
+                                <div class="image-text">{element.content}</div>
+                            </div>
                         </div>
 
                         
                         <div className='s-card-heading'>
                             <strong>{element.heading}</strong>
                         </div>
-                        
-                        <div className='image-content'>
-                            <p >{element.content}</p>
-                        </div>
+            
                     </div>
                    
                    );
