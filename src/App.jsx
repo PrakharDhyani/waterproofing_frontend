@@ -1,4 +1,5 @@
 import './App.css';
+
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Home from './Pages/Home/Home';
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
@@ -26,10 +27,10 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
 
 function App() {
-return (
+  return (
     <div className="App">
-      <RouterProvider  router={router} />
-    </div>
+      <RouterProvider router={router}/>
+  </div>
   );
 }
 

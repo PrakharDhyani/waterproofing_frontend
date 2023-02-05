@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
+import AboutMid from "../../components/AboutMid/AboutMid"
 import "./AboutUs.css"
 
 
@@ -14,6 +15,8 @@ export default function AboutUs() {
                     We are <strong> Complete Water Proofing System INC</strong>
                 </p>
           </div>
+          <AboutMid/>
+          
     </div>
   )
 }
