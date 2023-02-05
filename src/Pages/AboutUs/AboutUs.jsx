@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import AboutMid from "../../components/AboutMid/AboutMid"
 import "./AboutUs.css"
+import AboutAim from '../../components/AboutAim/AboutAim'
 
 
 export default function AboutUs() {
@@ -16,6 +17,7 @@ export default function AboutUs() {
                 </p>
           </div>
           <AboutMid/>
+          <AboutAim/>
           
     </div>
   )

@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = ({navColor}) => {
+const Navbar = ({ navColor }) => {
     return (
         <div className='Navbar'>
             <nav className="navbar navbar-expand-xl " >

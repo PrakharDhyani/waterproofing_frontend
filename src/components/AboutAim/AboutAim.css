@@ -1,0 +1,27 @@
+.AboutAim{
+    height: 70vh;
+    width: 100vw;
+    background: url("../../images/coverpage.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin: 30px 0;
+}
+
+.AboutContainer{
+    display: flex;
+    flex-direction: column;justify-content: center;
+    background-color: rgba(48, 42, 42,.8);
+    height: 40vh;
+    width: 40vw;
+    position: absolute;
+    bottom: 15%;
+    left:7%;
+    color: whitesmoke;
+    padding: 20px;
+    
+}
+.AboutContainer > h1{
+    font-size: xx-large;
+    font-weight: 800;
+}
