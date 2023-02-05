@@ -1,0 +1,31 @@
+.AboutUs{
+    height:70vh;
+    width : 100vw;
+}
+
+.Aboutcoverpage{
+    height: 80vh;
+    width: 100vw;
+    filter: brightness(80%);
+    object-fit: cover;
+}
+
+.headingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    position: absolute;
+    padding: 0 60px;
+    top: 30%;
+}
+
+.Abouth1{
+    font-weight: 700;
+    font-size: xxx-large;
+    text-align: left;
+}
+
+.lead{
+    font-weight: 600;
+}

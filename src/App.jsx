@@ -1,25 +1,35 @@
 import './App.css';
-import Clients from './components/Clients/Clients';
-import Features from './components/Features/Features';
-import Footer from './components/Footer/Footer';
-import Homepage from './components/Homepage/Homepage';
+import AboutUs from './Pages/AboutUs/AboutUs';
+import Home from './Pages/Home/Home';
+import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
-import ServicesCard from './components/ServicesCard/ServicesCard';
-import ServicesSection from './components/ServicesSection/ServicesSection';
+ const router = createBrowserRouter([
+  {
+    path: "*",
+    exact: true,
+    element: <Home/>
+  },
+  {
+    path: "/home",
+    element: <>
+    {<Home/>}
+    </>,
+    exact: true,
+  },
+  {
+    path: "/about",
+    element: <AboutUs/>,
+    exact: true
+  }
+]);
 
 
 
 function App() {
-  return (
-    <>
-      <Homepage/>
-      <ServicesCard/>
-      <ServicesSection />
-      <Features/>
-      <Clients/>
-      <Footer/>
-
-    </>
+return (
+    <div className="App">
+      <RouterProvider  router={router} />
+    </div>
   );
 }
 

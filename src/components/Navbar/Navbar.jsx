@@ -1,8 +1,8 @@
 import React from 'react'
+import { Link, Navigate } from 'react-router-dom'
 import './Navbar.css'
 
-
-const Navbar = () => {
+const Navbar = ({navColor}) => {
     return (
         <div className='Navbar'>
             <nav className="navbar navbar-expand-xl " >
@@ -16,42 +16,42 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active Navli"   style={{color:"whitesmoke"}}  aria-current="page" href="/">Home</a>
+                                <a className="nav-link active Navli"   style={{color: navColor}}  aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli"   style={{color:"whitesmoke"}} href="/">About Us</a>
+                                <Link className="nav-link Navli"  style={{color: navColor}} to="./about" >About Us</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli"   style={{color:"whitesmoke"}} href="/">Concepts</a>
+                                <a className="nav-link Navli"  style={{color: navColor}} href="/">Concepts</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle Navli"  style={{color:"whitesmoke"}}  href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle Navli" style={{color: navColor}}  href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
                                 <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"transparent"}} >
-                                    <li><a className="dropdown-item Navli" style={{color:"whitesmoke"}} href="/">Water Proofing</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color:"whitesmoke"}} href="/">Epoxy Flooring / Protective Paints</a></li>
-                                    <li><a className="dropdown-item Navli" style={{color:"whitesmoke"}} href="/">Repair and Rehabilation</a></li>
-                                    <li><a className="dropdown-item Navli" style={{color:"whitesmoke"}} href="/">Insulation</a></li>
-                                    <li><a className="dropdown-item Navli" style={{color:"whitesmoke"}} href="/">Project Consultancy</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Water Proofing</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Epoxy Flooring / Protective Paints</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Repair and Rehabilation</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Insulation</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Project Consultancy</a></li>
                                 </ul>
                             </li>
                             
 
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color:"whitesmoke"}} href="/">Products</a>
+                                <a className="nav-link Navli" style={{color: navColor}} href="/">Products</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color:"whitesmoke"}} href="/">Clients</a>
+                                <a className="nav-link Navli" style={{color: navColor}} href="/">Clients</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color:"whitesmoke"}} href="/">Certificate</a>
+                                <a className="nav-link Navli" style={{color: navColor}} href="/">Certificate</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color:"whitesmoke"}} href="/">Gallery</a>
+                                <a className="nav-link Navli" style={{color: navColor}} href="/">Gallery</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color:"whitesmoke"}} href="/">Contact Us</a>
+                                <a className="nav-link Navli" style={{color: navColor}} href="/">Contact Us</a>
                             </li>
                             
                         </ul>
