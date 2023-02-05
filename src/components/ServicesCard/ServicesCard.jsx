@@ -41,7 +41,6 @@ const ServicesCard = () => {
                                 <div class="image-text">{element.content}</div>
                             </div>
 
-                            {/* <img src={element.img} alt="img"  onMouseOver={()=>setHover(true)} onMouseOut={()=>setHover(false)} className='s-card-img'/> */}
 
                         </div>
 
