@@ -9,7 +9,7 @@ export default function AboutUs() {
   return (
       <div className='AboutUs' >
           <img className='Aboutcoverpage' src="../images/waterBackground2.jpg" alt="coverpage" />
-          <Navbar navColor = "whitesmoke" />
+          <Navbar navColor = "white" />
           <div className="headingContainer">
               <h1 className='Abouth1'> Protecting your home or business from the elements starts with a strong foundation - trust us to provide expert waterproofing solutions </h1>
                 <p className='lead'>

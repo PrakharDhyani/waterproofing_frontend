@@ -29,11 +29,11 @@ const Navbar = ({ navColor }) => {
                                     Services
                                 </a>
                                 <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"transparent"}} >
-                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Water Proofing</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Epoxy Flooring / Protective Paints</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Repair and Rehabilation</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Insulation</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor}} href="/">Project Consultancy</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Water Proofing</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Epoxy Flooring / Protective Paints</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Repair and Rehabilation</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Insulation</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Project Consultancy</a></li>
                                 </ul>
                             </li>
                             
