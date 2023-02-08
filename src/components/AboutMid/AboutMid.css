@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
 .about-us-midSection{
     height: 100vh;
     width: 100%;
-    /* margin-top: 5%; */
+    margin-top: 3%;
     text-align: center;
 
     gap: 3%;
@@ -9,10 +12,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3%;
 }
 .about-us-midSection > h2{
    width: 60vw;
-   color: rgb(37, 150, 190);
+   font-family: 'Lato', sans-serif;
    font-size: 40px;
    font-weight: 600;
 }
@@ -28,7 +32,7 @@
 }
 
 .mid-sec-img-container{
-    width: 50%;
+    width: 60%;
 }
 .mid-sec-img{
     width: 100%;
@@ -36,7 +40,7 @@
     object-fit: contain;
 }
 .mid-sec-content-container{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -44,12 +48,14 @@
     padding: 0 3%;
 
 }
-.mid-sec-content-container h2{
-    color: rgb(37, 150, 190);
-}
+
 .mid-sec-content-container p{
     color: rgb(70, 78, 81);
     font-size: large;
+}
+.mid-sec-content-container h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
 }
 
 .mid-sec-content-container button{

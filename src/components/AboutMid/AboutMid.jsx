@@ -16,7 +16,7 @@ const AboutMid = () => {
           </div>
 
           <div className='mid-sec-content-container'>
-            <h2>Comitted to Perform Quality Work</h2>
+            <h2>About Us</h2>
 
             <p>Founded by a group of Engineers in mid of nineties
                 in North India and then spread its network across the India. Our technical experts has the exposure in various fields; application, research & development, technical services and project planning and execution</p>
