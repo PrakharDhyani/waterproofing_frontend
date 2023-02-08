@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
 .AboutUs{
     height:70vh;
     width : 100vw;
@@ -23,6 +26,7 @@
 .Abouth1{
     font-weight: 700;
     font-size: xxx-large;
+    font-family: 'Lato', sans-serif;
     text-align: left;
 }
 
