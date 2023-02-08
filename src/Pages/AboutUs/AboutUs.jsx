@@ -20,7 +20,8 @@ export default function AboutUs() {
           </div>
           <AboutMid/>
           <AboutHow/>
-          <AboutAim/>
+      <AboutAim />
+      <Footer/>
           
     </div>
  
