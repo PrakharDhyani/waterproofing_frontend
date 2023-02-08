@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 .abouthow-container{
     height: 70vh;
     display: flex;
@@ -9,6 +11,7 @@
 
 .abouthow-container h2{
     margin-bottom: 1%;
+    font-family: 'Lato', sans-serif;
 }
 .abouthow-container p{
     margin-bottom: 5%;
@@ -44,6 +47,7 @@
 
 .round-container h4{
     margin-top: 5%;
+    font-family: 'Lato', sans-serif;
 }
 .round-container p{
     margin-top: 1%;
