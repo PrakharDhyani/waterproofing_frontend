@@ -1,7 +1,7 @@
 import React from 'react'
-import './AboutHow.css'
+import './AboutSection3.css'
 
-const AboutHow = () => {
+const AboutSection3 = () => {
   return (
     <div className='abouthow-container'>
         <h2>___ How we Build ___</h2>
@@ -39,4 +39,4 @@ const AboutHow = () => {
   )
 }
 
-export default AboutHow
+export default AboutSection3

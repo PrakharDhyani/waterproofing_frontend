@@ -30,6 +30,38 @@
     text-align: left;
 }
 
-.lead{
+.Aboutlead{
+    display: inline;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1119px){
+    .AboutUs{
+        height: 50vh;
+    }
+    .headingContainer{
+        width: 80vw;
+    }
+    .Abouth1{
+        font-size: xx-large;
+    }
+    .Aboutlead{
+        font-size: large;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .headingContainer {
+        top: 15%;
+    width: 100vw;
+    }
+    .Abouth1{
+       display: none;
+    }
+    .Aboutlead{
+        display: block!important;
+        font-size: xxx-large;
+        font-weight: 600!important;
+    }
+   
 }

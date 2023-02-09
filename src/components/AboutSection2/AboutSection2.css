@@ -130,3 +130,14 @@
         font-size: larger;
     }
 }
+
+@media only screen and (max-width: 484px) {
+.about-us-midSection{
+        height: 150vh;
+}
+}
+@media only screen and (max-width: 433px) {
+.about-us-midSection{
+    margin-bottom: 6rem;
+}
+}

@@ -1,7 +1,7 @@
 import React from 'react'
-import './AboutMid.css'
+import './AboutSection2.css'
 
-const AboutMid = () => {
+const AboutSection2 = () => {
   return (
     <div className="about-us-midSection">
 
@@ -30,4 +30,4 @@ const AboutMid = () => {
   )
 }
 
-export default AboutMid
+export default AboutSection2

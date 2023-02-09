@@ -19,7 +19,7 @@ const Navbar = ({ navColor }) => {
                                 <a className="nav-link active Navli"   style={{color: navColor}}  aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link Navli"  style={{color: navColor}} to="./about" >About Us</Link>
+                                <Link className="nav-link Navli"  style={{color: navColor}} to="/about" >About Us</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link Navli"  style={{color: navColor}} href="/">Concepts</a>

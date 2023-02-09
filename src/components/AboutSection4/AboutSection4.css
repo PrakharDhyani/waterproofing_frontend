@@ -50,9 +50,10 @@
     .AboutContainer > p{
         display: none;
     }
-    .AboutConatiner{
+    .AboutContainer{
         display: flex;
-        height: 40%;
+        height: 50%;
     }
 }
+
 
