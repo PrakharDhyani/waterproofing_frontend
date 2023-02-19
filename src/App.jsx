@@ -2,6 +2,7 @@ import './App.css';
 
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Home from './Pages/Home/Home';
+import Certificates from './components/Certificates/Certificates'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import ABoutCeo from './components/AboutCeo/ABoutCeo';
 
