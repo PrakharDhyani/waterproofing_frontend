@@ -2,6 +2,7 @@ import './App.css';
 
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Home from './Pages/Home/Home';
+import Certificates from './components/Certificates/Certificates'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 
  const router = createBrowserRouter([
@@ -23,8 +24,11 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
     exact: true
   },
   {
+
+ 
     path: "/aboutCeo",
     element: <AboutUs/>,
+
     exact: true
   }
 ]);
