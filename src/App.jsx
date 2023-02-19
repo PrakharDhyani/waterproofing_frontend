@@ -3,6 +3,7 @@ import './App.css';
 import AboutUs from './Pages/AboutUs/AboutUs';
 import Home from './Pages/Home/Home';
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
+import ABoutCeo from './components/AboutCeo/ABoutCeo';
 
  const router = createBrowserRouter([
   {
@@ -24,7 +25,7 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
   },
   {
     path: "/aboutCeo",
-    element: <AboutUs/>,
+    element:<ABoutCeo/> ,
     exact: true
   }
 ]);

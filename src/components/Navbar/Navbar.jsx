@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Navbar = ({ navColor,bgColor,page }) => {
     return (
-        <div className='Navbar' style={{backgroundColor: page === "aboutUs"?"rgb(37, 150, 190)":"", position:page !== "home"?"static":"absolute" }}>
+        <div className='Navbar' style={{backgroundColor: page !== "home"?"rgb(37, 150, 190)":"", position:page !== "home"?"static":"absolute" }}>
             <nav className="navbar navbar-expand-xl " >
                 <div className="container-fluid mx-auto" >
                     <a className="navbar-brand ms-5" href="/">
