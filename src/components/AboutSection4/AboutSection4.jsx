@@ -1,7 +1,7 @@
 import React from 'react'
-import "./AboutAim.css"
+import "./AboutSection4.css"
 
-export default function AboutAim() {
+export default function AboutSection4() {
   return (
       <div className='AboutAim'>
           <div className="AboutContainer">

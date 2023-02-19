@@ -2,16 +2,15 @@
 
 
 .about-us-midSection{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
-    margin-top: 3%;
+    /* margin-top: 3%; */
     text-align: center;
-
     gap: 3%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     margin-bottom: 3%;
 }
 .about-us-midSection > h2{
@@ -28,7 +27,7 @@
 .about-us-box{
     display: flex;
     width: 90vw;
-    margin-top: 2%;
+    /* margin-top: 2%; */
 }
 
 .mid-sec-img-container{
@@ -129,4 +128,15 @@
     .mid-sec-content-container p{
         font-size: larger;
     }
+}
+
+@media only screen and (max-width: 484px) {
+.about-us-midSection{
+        height: 150vh;
+}
+}
+@media only screen and (max-width: 433px) {
+.about-us-midSection{
+    margin-bottom: 6rem;
+}
 }

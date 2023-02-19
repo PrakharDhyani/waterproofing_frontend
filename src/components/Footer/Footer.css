@@ -6,6 +6,7 @@
     width: 100vw;
     color: whitesmoke;
     gap: 2rem ; 
+    /* position: fixed; */
 }
 
 ul{

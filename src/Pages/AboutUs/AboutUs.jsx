@@ -1,26 +1,26 @@
 import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
-import AboutMid from "../../components/AboutMid/AboutMid"
-import "./AboutUs.css"
-import AboutAim from '../../components/AboutAim/AboutAim'
+import AboutSection2 from "../../components/AboutSection2/AboutSection2"
+import AboutSection4 from '../../components/AboutSection4/AboutSection4'
 import Footer from '../../components/Footer/Footer'
-import AboutHow from '../../components/AboutHow/AboutHow'
+import AboutSection3 from '../../components/AboutSection3/AboutSection3'
+import "./AboutUs.css"
 
 export default function AboutUs() {
   return (
   
       <div className='AboutUs' >
-          <img className='Aboutcoverpage' src="../images/waterBackground2.jpg" alt="coverpage" />
-          <Navbar navColor = "white" />
-          <div className="headingContainer">
+          {/* <img className='Aboutcoverpage' src="../images/waterBackground2.jpg" alt="coverpage" /> */}
+          <Navbar navColor = "white" bgColor = "rgb(37, 150, 190)" page = "aboutUs" />
+          {/* <div className="headingContainer">
               <h1 className='Abouth1'> Protecting your home or business from the elements starts with a strong foundation - trust us to provide expert waterproofing solutions </h1>
-                <p className='lead'>
-                    We are <b> Complete Water Proofing System INC</b>
-                </p>
-          </div>
-          <AboutMid/>
-          <AboutHow/>
-          <AboutAim/>
+              <p className='Aboutlead' style={{display:"none"}} >We are  </p>
+              <div className='Aboutlead' >Complete Water Proofing System INC</div>
+          </div> */}
+          <AboutSection2 />
+          {/* <AboutSection3/> */}
+          {/* <AboutSection4 /> */}
+          <Footer/>
           
     </div>
  
