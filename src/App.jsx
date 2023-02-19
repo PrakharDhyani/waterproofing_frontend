@@ -21,6 +21,11 @@ import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
     path: "/about",
     element: <AboutUs/>,
     exact: true
+  },
+  {
+    path: "/aboutCeo",
+    element: <AboutUs/>,
+    exact: true
   }
 ]);
 

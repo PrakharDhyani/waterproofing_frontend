@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { Link, Navigate } from 'react-router-dom'
 import './Navbar.css'
 
-const Navbar = ({ navColor }) => {
+const Navbar = ({ navColor,bgColor,page }) => {
     return (
-        <div className='Navbar'>
+        <div className='Navbar' style={{backgroundColor: page === "aboutUs"?"rgb(37, 150, 190)":"", position:page !== "home"?"static":"absolute" }}>
             <nav className="navbar navbar-expand-xl " >
                 <div className="container-fluid mx-auto" >
                     <a className="navbar-brand ms-5" href="/">
@@ -18,23 +18,21 @@ const Navbar = ({ navColor }) => {
                             <li className="nav-item">
                                 <a className="nav-link active Navli"   style={{color: navColor}}  aria-current="page" href="/">Home</a>
                             </li>
-                            <li className="nav-item">
-                                <Link className="nav-link Navli"  style={{color: navColor}} to="/about" >About Us</Link>
+                            <li className="nav-item dropdown" >
+                                <Link className="nav-link Navli dropdown-toggle" style={{ color: navColor }} to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" >About Us</Link>
+                                <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"transparent"}} >
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/about">About Company</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/aboutCeo">CEO Message</a></li>
+                                </ul>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link Navli"  style={{color: navColor}} href="/">Concepts</a>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle Navli" style={{color: navColor}}  href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item ">
+                                <a className="nav-link  Navli" style={{color: navColor}}  href="/" >
                                     Services
                                 </a>
-                                <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"transparent"}} >
-                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Water Proofing</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Epoxy Flooring / Protective Paints</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Repair and Rehabilation</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Insulation</a></li>
-                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="/">Project Consultancy</a></li>
-                                </ul>
+                                
                             </li>
                             
 

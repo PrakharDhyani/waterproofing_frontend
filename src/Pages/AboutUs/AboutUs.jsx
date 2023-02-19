@@ -10,16 +10,16 @@ export default function AboutUs() {
   return (
   
       <div className='AboutUs' >
-          <img className='Aboutcoverpage' src="../images/waterBackground2.jpg" alt="coverpage" />
-          <Navbar navColor = "white" />
-          <div className="headingContainer">
+          {/* <img className='Aboutcoverpage' src="../images/waterBackground2.jpg" alt="coverpage" /> */}
+          <Navbar navColor = "white" bgColor = "rgb(37, 150, 190)" page = "aboutUs" />
+          {/* <div className="headingContainer">
               <h1 className='Abouth1'> Protecting your home or business from the elements starts with a strong foundation - trust us to provide expert waterproofing solutions </h1>
               <p className='Aboutlead' style={{display:"none"}} >We are  </p>
               <div className='Aboutlead' >Complete Water Proofing System INC</div>
-          </div>
+          </div> */}
           <AboutSection2 />
-          <AboutSection3/>
-          <AboutSection4 />
+          {/* <AboutSection3/> */}
+          {/* <AboutSection4 /> */}
           <Footer/>
           
     </div>
