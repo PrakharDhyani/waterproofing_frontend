@@ -28,6 +28,11 @@ import ABoutCeo from './components/AboutCeo/ABoutCeo';
     path: "/aboutCeo",
     element:<ABoutCeo/> ,
     exact: true
+  },
+  {
+    path: "/certificates",
+    element:<Certificates/> ,
+    exact: true
   }
 ]);
 

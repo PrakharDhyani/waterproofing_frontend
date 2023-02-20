@@ -1,6 +1,16 @@
+.certificates-component-cont{
+    padding: 2.5% 5%;
+    
+}
+.certificates-component-cont h2{
+    margin-bottom: 1%;
+    text-align: center;
+}
+
 .certificate-container{
-    height: 60vh;
-    margin:3%;
+    height: 70vh;
+   
+    padding: 3%;
 }
 
 .certificate-img-container{
@@ -13,5 +23,5 @@
     object-fit: contain;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    /* border-radius: 0px 25px 25px 0px; */
+    /* border-radius: 0px 25px 25px 0px; */
 }
