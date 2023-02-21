@@ -40,7 +40,7 @@ const Navbar = ({ navColor,bgColor,page }) => {
                                 <a className="nav-link Navli" style={{color: navColor}} href="/">Products</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link Navli" style={{color: navColor}} href="/">Clients</a>
+                                <Link className="nav-link Navli" style={{color: navColor}} to="/clients">Clients</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link Navli" style={{color: navColor}} to="/certificates">Certificate</Link>

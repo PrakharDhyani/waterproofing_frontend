@@ -20,13 +20,13 @@
    font-weight: 600;
 }
 .about-us-midSection > p{
-   width: 40vw;
+   width: 100vw;
    color: rgb(70, 78, 81);
 }
 
 .about-us-box{
     display: flex;
-    width: 90vw;
+    width: 100vw;
     /* margin-top: 2%; */
 }
 
@@ -54,7 +54,9 @@
 }
 .mid-sec-content-container h2{
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: xxx-large;
+    text-align: center;
 }
 
 .mid-sec-content-container button{
