@@ -11,6 +11,13 @@
     flex-direction: column;
     width: 100%;
     background-color: #f2f2f2;
+    margin-bottom: 50px;
+}
+
+.Clientheading > h1{
+    margin: 35px 0;
+    font-weight: 900;
+    font-size: xxx-large;
 }
 .listLogo{
     height: 120px;
@@ -31,18 +38,22 @@
 .ListHeading{
     display: flex;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 2px;
 }
 .listElement{
     display: flex;   
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-bottom: 2px;
 }
 .listName{
     width: 50%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large
 }
 .logoImg{
     width: 150px;

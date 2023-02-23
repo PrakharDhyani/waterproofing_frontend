@@ -20,8 +20,10 @@
    font-weight: 600;
 }
 .about-us-midSection > p{
-   width: 100vw;
+   width: 100%;
    color: rgb(70, 78, 81);
+   padding: 0 15%;
+   text-align: left;
 }
 
 .about-us-box{
@@ -55,7 +57,7 @@
 .mid-sec-content-container h2{
     font-family: 'Lato', sans-serif;
     font-weight: 900;
-    font-size: xxx-large;
+    font-size: 70px;
     text-align: center;
 }
 

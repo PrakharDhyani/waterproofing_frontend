@@ -48,8 +48,14 @@ const Navbar = ({ navColor,bgColor,page }) => {
                             <li className="nav-item">
                                 <a className="nav-link Navli" style={{color: navColor}} href="/">Gallery</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link Navli" style={{color: navColor}} href="/">Contact Us</a>
+                            <li className="nav-item dropdown" >
+                                <Link className="nav-link Navli dropdown-toggle" style={{ color: navColor }} to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Contacts</Link>
+                                <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"transparent"}} >
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="tel:+919873004032"><i className ="fa-solid fa-phone" style={{paddingRight:"5px"}}></i> +91 9873004032</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="https://www.google.com/maps?q=28.6357001,77.3107258"><i className="fa-solid fa-location-crosshairs" style={{paddingRight:"5px"}}></i> Location</a></li>
+                                    <li><a className="dropdown-item Navli"target='_blank' style={{color: navColor,backgroundColor:"transparent"}} href="https://wa.me/+919873004032" ><i className="fa-brands fa-whatsapp"style={{paddingRight:"5px"}}></i> whatsapp</a></li>
+                                    <li><a className="dropdown-item Navli"style={{color: navColor,backgroundColor:"transparent"}} href="mailto:cwsi_wp@yahoo.com"><i className="fa-solid fa-envelope" style={{paddingRight:"5px"}}></i> cwsi_wp@yahoo.com</a></li>
+                                </ul>
                             </li>
                             
                         </ul>
