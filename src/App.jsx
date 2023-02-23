@@ -6,6 +6,7 @@ import Certificates from './components/Certificates/Certificates'
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import ABoutCeo from './components/AboutCeo/ABoutCeo';
 import ClientPage from './Pages/ClientPage/ClientPage';
+import ServicesPage from './Pages/ServicesPage/ServicesPage'
 
  const router = createBrowserRouter([
   {
@@ -38,6 +39,12 @@ import ClientPage from './Pages/ClientPage/ClientPage';
   {
     path: "/Clients",
     element:<ClientPage/> ,
+    exact: true
+  }
+  ,
+  {
+    path: "/services",
+    element:<ServicesPage/> ,
     exact: true
   }
 ]);

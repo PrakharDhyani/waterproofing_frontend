@@ -1,0 +1,81 @@
+.services-page-container{
+    padding: 2% 10%;
+}
+.services-page-container > h3{
+    text-align: center;
+    padding: 2% 0;
+    font-size: xx-large;
+    font-weight: 550;
+}
+
+.services-item{
+    
+    width: 31.5%;
+    padding: 5% 0;
+    margin: 0.5%;
+    
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border: 1px solid rgb(37, 150, 190);
+    transition: all 0.2s ease-in-out;
+}
+
+.services-item:hover{
+    
+    background-color: rgb(37, 150, 190);
+    color: white;
+
+}
+
+.services-item-logo{
+    font-size: 50px;
+}
+
+.services-item-heading{
+    padding: 3%;
+    font-size: larger;
+}
+
+
+/*  */
+
+.services-page-service-container{
+    padding: 3% 0;
+}
+.services-page-service-container h3{
+    margin-bottom: 3%;
+    font-weight: 550;
+}
+.services-page-service{
+    display: flex;
+    gap: 5%;
+}
+
+.service-page-img-container{
+    height: 40%;
+    width: 45%;
+}
+.service-page-img{
+    height: 100%;
+    width: 100%;
+  
+    object-fit: contain;
+}
+
+.service-page-content-container{
+    font-size: x-large;
+    width: 55%;
+}
+
+.service-page-content-container li{
+    padding: 1% 0;
+    list-style-type: disc;
+}
+.service-page-content-container ul{
+    padding: 1% 0 1% 2rem;
+}
