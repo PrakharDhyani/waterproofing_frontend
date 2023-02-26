@@ -37,7 +37,7 @@ const ServicesPage = () => {
                         Repair and Rehabilition
                     </div>
                 </a>
-                <a className='services-item col-md-4' href='#insulation'>
+                <a className='services-item col-md-6 last-two' href='#insulation'>
                     <div className='services-item-logo'>
                         <i class="fa-brands fa-connectdevelop"></i>
                     </div>
@@ -45,7 +45,7 @@ const ServicesPage = () => {
                         Insulation
                     </div>
                 </a>
-                <a className='services-item col-md-4' href='#projectConsultancy'>
+                <a className='services-item col-md-6 last-two' href='#projectConsultancy'>
                     <div className='services-item-logo'>
                     <i class="fa-solid fa-user-tie"></i>
                     </div>

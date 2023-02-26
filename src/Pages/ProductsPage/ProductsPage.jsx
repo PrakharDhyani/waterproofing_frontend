@@ -10,86 +10,115 @@ export default function ProductsPage() {
        <div className='products-page-container'>
             <h3>Products we Offer</h3>
 
-            <div className='row'>
+            <div className='row row-cols-5'>
 
-                <a className='products-item col-md-4' href='#pvcMembrane'>
-                    <div className='products-item-logo'>
-                        <i className = "fa-solid fa-umbrella"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                        PVC Membrane
-                    </div>
-                </a>
-                <a className='products-item col-md-4' href='#appMembrane'>
-                    <div className='products-item-logo'>
-                        <i className = "fa-solid fa-paint-roller"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                       APP Membrane
+                <a className='products-item col' href='#pvcMembrane'>
+
+                    <div className='products-item-inner'>
+                        <div className='products-item-logo'>
+                            <i className = "fa-solid fa-umbrella"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                            PVC Membrane
+                        </div>
                     </div>
                 </a>
-                <a className='products-item col-md-4' href='#sbsMembrane'>
-                    <div className='products-item-logo'>
-                        <i className="fa-solid fa-wrench"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                       SBS Membrane
+                <a className='products-item col' href='#appMembrane'>
+                    <div className='products-item-inner'>
+                        <div className='products-item-logo'>
+                            <i className = "fa-solid fa-paint-roller"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                        APP Membrane
+                        </div>
                     </div>
                 </a>
-                <a className='products-item col-md-4' href='#polyurethaneCoating'>
-                    <div className='products-item-logo'>
-                        <i className ="fa-brands fa-connectdevelop"></i>
+                <a className='products-item col' href='#sbsMembrane'>
+                    <div className='products-item-inner'>
+                        <div className='products-item-logo'>
+                            <i className="fa-solid fa-wrench"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                        SBS Membrane
+                        </div>
                     </div>
-                    <div className='products-item-heading'>
+                </a>
+                <a className='products-item col' href='#CrystallineWaterproofing'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                            <i className ="fa-brands fa-connectdevelop"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                        Crystalline Waterproofing
+                            
+                        </div>
+                    </div>
+                </a>
+                <a className='products-item col' href='#epdmMembrane'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                            <i className ="fa-brands fa-connectdevelop"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                            EPDM Membrane
+                        </div>
+                    </div>
+                </a>
+                <a className='products-item col' href='#CementitiousWPCoating'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                        <i className="fa-brands fa-connectdevelop"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                            Cementitious WP Coating
+                        </div>
+                    </div>
+                </a>
+                <a className='products-item col' href='#PolyureaCoating'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                        <i className="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                            Polyurea Coating
+                        </div>
+                    </div>
+                </a>
+                <a className='products-item col' href='#polyurethaneCoating'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                        <i className="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div className='products-item-heading'>
                         polyurethane Coating
+                        </div>
                     </div>
                 </a>
-                <a className='products-item col-md-4' href='#epdmMembrane'>
-                    <div className='products-item-logo'>
-                        <i className ="fa-brands fa-connectdevelop"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                        EPDM Membrane
-                    </div>
-                </a>
-                <a className='products-item col-md-4' href='#CementitiousWPCoating'>
-                    <div className='products-item-logo'>
-                    <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                        Cementitious WP Coating
+                <a className='products-item col' href='#TPOMembranes'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                        <i className="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                        TPO Membranes
+                        </div>
                     </div>
                 </a>
-                <a className='products-item col-md-4' href='#PolyureaCoating'>
-                    <div className='products-item-logo'>
-                    <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                        Polyurea Coating
-                    </div>
-                </a>
-                <a className='products-item col-md-4' href='#CrystallineWaterproofing'>
-                    <div className='products-item-logo'>
-                    <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                       Crystalline Waterproofing
-                    </div>
-                </a>
-                <a className='products-item col-md-4' href='#TPOMembranes'>
-                    <div className='products-item-logo'>
-                    <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                       TPO Membranes
-                    </div>
-                </a>
-                <a className='products-item col-md-4' href='#RubberBasedEMB&FlexibleAcrylicCoating'>
-                    <div className='products-item-logo'>
-                    <i className="fa-solid fa-user-tie"></i>
-                    </div>
-                    <div className='products-item-heading'>
-                       Rubber Based EMB & Flexible Acrylic Coating
+                <a className='products-item col' href='#RubberBasedEMB&FlexibleAcrylicCoating'>
+                    <div className='products-item-inner'>
+
+                        <div className='products-item-logo'>
+                        <i className="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div className='products-item-heading'>
+                        Rubber Based EMB & Flexible Acrylic Coating
+                        </div>
                     </div>
                 </a>
 
