@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
+import Navbar1 from '../../components/Navbar/Navbar1'
 import './ServicesPage.css'
-import {data} from '../../common/ServiceCardData.js';
+
 import Footer from '../../components/Footer/Footer'
-const ServicesPage = () => {
+const  ServicesPage = () => {
   return (
     <div>
-        <Navbar/>
+        <Navbar1/>
 
         <div className='services-page-container'>
             <h3>Services we Offer</h3>
