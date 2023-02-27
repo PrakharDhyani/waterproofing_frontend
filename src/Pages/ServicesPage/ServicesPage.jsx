@@ -13,7 +13,7 @@ const  ServicesPage = () => {
 
             <div className='row'>
 
-                <a className='services-item col-md-4' href='#waterproofing'>
+                <a className='services-item col-md-4 col-sm-6' href='#waterproofing'>
                     <div className='services-item-logo'>
                         <i class="fa-solid fa-umbrella"></i>
                     </div>
@@ -21,7 +21,7 @@ const  ServicesPage = () => {
                         Water Proofing
                     </div>
                 </a>
-                <a className='services-item col-md-4' href='#epoxyFlooring'>
+                <a className='services-item col-md-4 col-sm-6' href='#epoxyFlooring'>
                     <div className='services-item-logo'>
                         <i class="fa-solid fa-paint-roller"></i>
                     </div>
@@ -29,7 +29,7 @@ const  ServicesPage = () => {
                         Epoxy Flooring System / Protective Paints
                     </div>
                 </a>
-                <a className='services-item col-md-4' href='#repair'>
+                <a className='services-item col-md-4 col-sm-6' href='#repair'>
                     <div className='services-item-logo'>
                         <i class="fa-solid fa-wrench"></i>
                     </div>
@@ -45,7 +45,7 @@ const  ServicesPage = () => {
                         Insulation
                     </div>
                 </a>
-                <a className='services-item col-md-6 last-two' href='#projectConsultancy'>
+                <a className='services-item col-md-6 col-sm-12 last-two last-one' href='#projectConsultancy'>
                     <div className='services-item-logo'>
                     <i class="fa-solid fa-user-tie"></i>
                     </div>
