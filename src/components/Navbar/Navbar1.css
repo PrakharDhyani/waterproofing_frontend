@@ -1,9 +1,5 @@
 .Navbar{
-    font-size: x-large;
-    /* background-color:rgb(37, 150, 190)!important; */
-
-    background-color:  #25befb!important;
-    
+    font-size: x-large;    
     width: 100%;
     font-size: x-large;
     font-weight: 500;
@@ -29,6 +25,9 @@
     }
 }
 @media (max-width: 992px) {
+    .Navbar{
+        justify-content: space-between!important;
+    }
     .Navbar > div{
         justify-content: space-between!important;
     }

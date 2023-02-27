@@ -2,11 +2,11 @@ import React from 'react'
 import "./Navbar1.css"
 import { Link } from 'react-router-dom'
 
-export default function Navbar1() {
+export default function Navbar1({page}) {
   return (
-    <nav className="navbar navbar-expand-lg" style={{padding:"0"}} >
+    <nav className="navbar navbar-expand-lg" style={{padding:"0", backgroundColor: page === "home"?"#999898":"#25befb"}} >
           <div className="container-fluid Navbar" >
-              <div className="" style={{display:"flex",justifyContent:"center",width:"100%"}}>
+              {/* <div className="" style={{display:"flex",justifyContent:"center",width:"100%"}}> */}
                   
             <a className="navbar-brand ms-5" href="/">
                 < img src="./images/logo.png" alt="IMG" id='logo'/>
@@ -58,7 +58,7 @@ export default function Navbar1() {
                     </li>  
                 </ul>
             </div>
-              </div>
+              {/* </div> */}
         </div>
     </nav>
   )

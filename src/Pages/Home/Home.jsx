@@ -11,7 +11,7 @@ import ServicesCarrousel from '../../components/ServicesCarrousel/ServicesCarrou
 export default function Home() {
   return (
     <div>
-          <Navbar1/>
+          <Navbar1 page = "home"/>
           <Homepage />
           <ServicesCarrousel />
           <ServicesSection />
