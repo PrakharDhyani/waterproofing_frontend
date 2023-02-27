@@ -30,7 +30,7 @@
     flex-direction: column;
     gap: 1rem;
     text-align: center;
-    
+    padding: 1%;
     color: white;
 }
 
@@ -107,6 +107,11 @@
 }
 @media only screen and (max-width: 558px) {
     
+    .icon-container div{
+        font-size: small;
+        font-weight: 400;
+    }
+
     .s-section-container-in{
 
         grid-template-rows: 1fr 1fr 1fr;

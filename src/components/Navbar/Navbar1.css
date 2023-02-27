@@ -1,9 +1,11 @@
 .Navbar{
     font-size: x-large;
-    background-color:rgb(37, 150, 190)!important;
+    /* background-color:rgb(37, 150, 190)!important; */
+    background-color:  #999898!important;
     width: 100%;
     font-size: x-large;
-    padding: 1% 3%;
+    font-weight: 500;
+    padding: 0.3% 3%;
     justify-content: center!important;
 }
 #logo{

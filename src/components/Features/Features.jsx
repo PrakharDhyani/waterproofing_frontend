@@ -21,10 +21,10 @@ const Features = () => {
 
             <div className='features-left-box'>
 
-                <div className={(key===1)?'f-btn key-select':'f-btn'} onClick={()=>setKey(1)}>Quality</div>
-                <div className={(key===2)?'f-btn key-select':'f-btn'} onClick={()=>setKey(2)}>Professionals</div>
-                <div className={(key===3)?'f-btn key-select':'f-btn'} onClick={()=>setKey(3)}>One Solution</div>
-                <div className={(key===4)?'f-btn key-select':'f-btn'} onClick={()=>setKey(4)}>Technology</div>
+                <div className={(key===1)?'f-btn key-select':'f-btn'} onClick={()=>setKey(1)} id='oneone' >Quality</div>
+                <div className={(key===2)?'f-btn key-select':'f-btn'} onClick={()=>setKey(2)} id='onetwo' >Professionals</div>
+                <div className={(key===3)?'f-btn key-select':'f-btn'} onClick={()=>setKey(3)} id='twoone'>One Solution</div>
+                <div className={(key===4)?'f-btn key-select':'f-btn'} onClick={()=>setKey(4)} id='twotwo' >Technology</div>
 
                 {data.map((element)=>{
                     return (
