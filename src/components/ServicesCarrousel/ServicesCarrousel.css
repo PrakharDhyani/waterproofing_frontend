@@ -1,0 +1,21 @@
+.ServicesCarrousel{
+    padding: 5%;
+}
+
+.ServicesCarrousel > div{
+    color: rgb(37, 150, 190);
+    text-align: center;
+    padding: 1%;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.ServicesCarrousel > p{
+    padding: 1% 5%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+   
+}

@@ -13,7 +13,7 @@ const ServicesSection = () => {
       <div className='s-section-container-in'>
 
         <div className='icon-container'>
-          <i class="fa-solid fa-screwdriver-wrench" style={{ zIndex: "3" }}></i>
+          <i class="fa-solid fa-screwdriver-wrench"></i>
           <div>Underground Structure</div>
         </div>
 
@@ -32,7 +32,7 @@ const ServicesSection = () => {
           <div>Swimming Pool</div>
         </div>
 
-        <div className='icon-container'>
+        <div className='icon-container' id='secondRow'>
           <i class="fa-solid fa-helmet-safety"></i>
           <div>Expansion Joints</div>
 
@@ -53,7 +53,7 @@ const ServicesSection = () => {
           <div>Industrial Flooring</div>
         </div>
 
-        <div className='icon-container'>
+        <div className='icon-container' id='thirdRow'>
           <i class="fa-solid fa-brush"></i>
           <div>Protective Coating</div>
         </div>
