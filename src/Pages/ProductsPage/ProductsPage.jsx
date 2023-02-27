@@ -11,9 +11,9 @@ export default function ProductsPage() {
        <div className='products-page-container'>
             <h3>Products we Offer</h3>
 
-            <div className='row row-cols-5'>
+            <div className='row '>
 
-                <a className='products-item col' href='#pvcMembrane'>
+                <a className='products-item col-md-2 col-sm-3' href='#pvcMembrane'>
 
                     <div className='products-item-inner'>
                         <div className='products-item-logo'>
@@ -24,7 +24,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#appMembrane'>
+                <a className='products-item col-md-2 col-sm-3' href='#appMembrane'>
                     <div className='products-item-inner'>
                         <div className='products-item-logo'>
                             <i className = "fa-solid fa-paint-roller"></i>
@@ -34,7 +34,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#sbsMembrane'>
+                <a className='products-item col-md-2 col-sm-3' href='#sbsMembrane'>
                     <div className='products-item-inner'>
                         <div className='products-item-logo'>
                             <i className="fa-solid fa-wrench"></i>
@@ -44,7 +44,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#CrystallineWaterproofing'>
+                <a className='products-item col-md-2 col-sm-3' href='#CrystallineWaterproofing'>
                     <div className='products-item-inner'>
 
                         <div className='products-item-logo'>
@@ -56,7 +56,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#epdmMembrane'>
+                <a className='products-item col-md-2 col-sm-3' href='#epdmMembrane'>
                     <div className='products-item-inner'>
 
                         <div className='products-item-logo'>
@@ -67,7 +67,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#CementitiousWPCoating'>
+                <a className='products-item col-md-2 col-sm-3' href='#CementitiousWPCoating'>
                     <div className='products-item-inner'>
 
                         <div className='products-item-logo'>
@@ -78,7 +78,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#PolyureaCoating'>
+                <a className='products-item col-md-3 col-sm-3' href='#PolyureaCoating'>
                     <div className='products-item-inner'>
 
                         <div className='products-item-logo'>
@@ -89,7 +89,7 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#polyurethaneCoating'>
+                <a className='products-item col-md-3 col-sm-3' href='#polyurethaneCoating'>
                     <div className='products-item-inner'>
 
                         <div className='products-item-logo'>
@@ -100,8 +100,8 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#TPOMembranes'>
-                    <div className='products-item-inner'>
+                <a className='products-item col-md-3 col-sm-6' href='#TPOMembranes'>
+                    <div className='products-item-inner product-last-two'>
 
                         <div className='products-item-logo'>
                         <i className="fa-solid fa-user-tie"></i>
@@ -111,8 +111,8 @@ export default function ProductsPage() {
                         </div>
                     </div>
                 </a>
-                <a className='products-item col' href='#RubberBasedEMB&FlexibleAcrylicCoating'>
-                    <div className='products-item-inner'>
+                <a className='products-item col-md-3 col-sm-6' href='#RubberBasedEMB&FlexibleAcrylicCoating'>
+                    <div className='products-item-inner product-last-two'>
 
                         <div className='products-item-logo'>
                         <i className="fa-solid fa-user-tie"></i>
