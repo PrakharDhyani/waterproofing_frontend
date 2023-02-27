@@ -22,7 +22,7 @@ export default function Navbar1({page}) {
                     </li>
                     <li className="nav-item dropdown" >
                         <Link className="nav-link Navli dropdown-toggle" to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" >About Us</Link>
-                        <ul className="dropdown-menu animate slideIn" style={{backgroundColor:"rgb(37, 150, 190)", padding:"0"}} >
+                        <ul className="dropdown-menu animate slideIn" style={{backgroundColor: page === "home"?"#999898":"#25befb", padding:"0"}} >
                             <li><a className="dropdown-item Navli" href="/about">About Company</a></li>
                             <li><a className="dropdown-item Navli" href="/aboutCeo">CEO Message</a></li>
                         </ul>
@@ -49,7 +49,7 @@ export default function Navbar1({page}) {
                     </li> 
                     <li className="nav-item dropdown" >
                         <Link className="nav-link Navli dropdown-toggle" to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Contacts</Link>
-                        <ul className="dropdown-menu animate slideIn " style={{backgroundColor:"rgb(37, 150, 190)", padding:"0"}} >
+                        <ul className="dropdown-menu animate slideIn " style={{backgroundColor: page === "home"?"#999898":"#25befb", padding:"0"}} >
                             <li><a className="dropdown-item Navli" href="tel:+919873004032"><i className ="fa-solid fa-phone" style={{paddingRight:"5px"}}></i> +91 9873004032</a></li>
                             <li><a className="dropdown-item Navli" href="https://www.google.com/maps?q=28.6357001,77.3107258"><i className="fa-solid fa-location-crosshairs" style={{paddingRight:"5px"}}></i> Location</a></li>
                             <li><a className="dropdown-item Navli"target='_blank' href="https://wa.me/+919873004032" ><i className="fa-brands fa-whatsapp"style={{paddingRight:"5px"}}></i> whatsapp</a></li>
