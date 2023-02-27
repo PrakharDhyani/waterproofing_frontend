@@ -2,11 +2,12 @@ import React from 'react'
 import "./ProductsPage.css"
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
+import Navbar1 from '../../components/Navbar/Navbar1'
 
 export default function ProductsPage() {
   return (
     <div className='ProductPage'>
-      <Navbar />
+      <Navbar1 />
        <div className='products-page-container'>
             <h3>Products we Offer</h3>
 

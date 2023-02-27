@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import Footer from '../Footer/Footer'
 import "./AboutCeo.css"
+import Navbar1 from '../Navbar/Navbar1'
 export default function ABoutCeo() {
   return (
       <div className='ABoutCeo'>
-          <Navbar />
+          <Navbar1 />
           <div className="AboutCeoContainer">
               <h1>CEO Message</h1>
               <div className="imageContainer">

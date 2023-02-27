@@ -1,16 +1,16 @@
 import React from 'react'
 import './Certificates.css'
-import Navbar from '../Navbar/Navbar'
 import { CertificateArray } from '../../common/Certificates'
 import { setting } from '../../common/setting'
 import Footer from '../Footer/Footer'
 import Slider from 'react-slick'
+import Navbar1 from '../Navbar/Navbar1'
 const Certificates = () => {
   setting.slidesToShow=1;
   setting.speed= 800;
   return (
     <>
-      <Navbar />
+      <Navbar1 />
     <div className='certificates-component-cont'>
 
       <h2>__ Our Certificates __</h2>

@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import { clientsData } from "../../common/clientsData.js"
 import "./ClientPage.css"
+import Navbar1 from '../../components/Navbar/Navbar1'
 export default function ClientPage() {
   return (
       <div className='ClientPage'>
-          <Navbar />
+          <Navbar1 />
           <div className="ClientBody">
               <div className="Clientheading" >
                   <h1>Our Clients</h1>

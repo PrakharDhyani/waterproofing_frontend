@@ -1,5 +1,5 @@
 
-.Navbar{
+/* .Navbar{
     position: absolute;
     top: 0%;
     left: 0%;
@@ -10,33 +10,28 @@
     width: 100%;
     display: flex;
     justify-content: center;
-  }
+  } */
 
-#logo{
+/* #logo{
     height: 5rem;
     width: 5rem;
     object-fit: cover;
-    /* margin-left: 8rem; */
-}
-.navbar-nav{
+} */
+/* .navbar-nav{
     gap: 20px;
-}
-.Navli:hover{
-  /* background-color: #61b6e2; */
-  /* border-bottom: 2px solid #61b6e2;; */
- /* text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8); */
-}
+} */
 
-.dropdown-menu{
+
+/* .dropdown-menu{
     font-size: large;
     padding: 20px;
     border-radius: 0%;
-}
-.dropdown-menu li{
+} */
+/* .dropdown-menu li{
     padding: 3px; 
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .animate {
       animation-duration: 0.3s;
       -webkit-animation-duration: 0.3s;
@@ -52,8 +47,8 @@
   .navbar-expand-xl{
     width: 100%;
   }
-}
-  
+} */
+/*   
 @keyframes slideIn {
     0% {
       transform: translateY(1rem);
@@ -70,8 +65,8 @@
       opacity: 0;
     }
   }
-  
-@-webkit-keyframes slideIn {
+   */
+/* @-webkit-keyframes slideIn {
     0% {
       -webkit-transform: transform;
       -webkit-opacity: 0;
@@ -91,7 +86,7 @@
 .slideIn {
     -webkit-animation-name: slideIn;
     animation-name: slideIn;
-}
+} */
   
   /* Other styles for the page not related to the animated dropdown */
 
