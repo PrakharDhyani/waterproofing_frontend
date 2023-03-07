@@ -51,6 +51,7 @@ a{
 
 @media only screen and (max-width: 978px) {
      .fst,.snd{
+        width: 100%;
         display: block;
         padding: 5px 5px;
      }
@@ -58,6 +59,13 @@ a{
 @media only screen and (max-width: 550px) {
      .Footer{
         display: block;
-        padding: 5px 5px;
+        padding: 5px 50px;
+     }
+     .fst > div{
+        width: 100%;
+        margin: 25px 0px;
+     }
+     .links{
+        justify-content: space-around;
      }
 }
