@@ -1,5 +1,5 @@
 .certificates-component-cont{
-    padding: 2.5% 5%;
+    padding: 3.5% 5%;
     
 }
 .certificates-component-cont h2{
@@ -15,6 +15,7 @@
 
 .certificate-img-container{
     height: 100%;
+    text-align: center;
     /* padding: 10% 10%; */
 }
 .certificate-img{
@@ -24,4 +25,23 @@
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     /* border-radius: 0px 25px 25px 0px; */
+}
+
+.certificate-btn-container{
+    display: flex;
+    gap: 1%;
+    padding: 1%;
+}
+.certificate-btn{
+    background-color: #25befb;
+    color: white;
+    border: 1px solid #25befb;
+    padding: .5% 1%;
+}
+.certificate-btn:hover{
+    background-color: #1b7aa0;
+}
+
+.clicked_btn{
+    background-color: #1b7aa0;
 }

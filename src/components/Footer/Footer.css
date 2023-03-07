@@ -1,6 +1,6 @@
 .Footer{
     background-image: linear-gradient(rgb(12, 28, 36),rgba(12, 28, 36,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
-    padding: 3vh 3vw;
+    padding: 5vh 3vw;
     display: flex;
     justify-content: center;
     width: 100vw;
