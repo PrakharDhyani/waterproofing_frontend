@@ -68,4 +68,7 @@ a{
      .links{
         justify-content: space-around;
      }
+     .contact{
+        margin: 3rem 0;
+     }
 }

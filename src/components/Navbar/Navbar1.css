@@ -30,5 +30,9 @@
     }
     .Navbar > div{
         justify-content: space-between!important;
+        margin-left: 1rem!important;
+    }
+    .Navbar > a{
+        margin-left: 1rem!important;
     }
 }

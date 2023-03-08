@@ -24,8 +24,8 @@ const Certificates = () => {
       <h2>__ Our Certificates __</h2>
 
       <div className='certificate-btn-container'>
-        <button className={(data==CompaniesCertificateArray)?'certificate-btn clicked_btn':'certificate-btn'} onClick={()=>setData(CompaniesCertificateArray)}>Companies Certificates</button>
-        <button className={(data==CompletionCertificateArray)?'certificate-btn clicked_btn':'certificate-btn'} onClick={()=>setData(CompletionCertificateArray)}>Completion Certificates</button>
+        <button className={(data===CompaniesCertificateArray)?'certificate-btn clicked_btn':'certificate-btn'} onClick={()=>setData(CompaniesCertificateArray)}>Companies Certificates</button>
+        <button className={(data===CompletionCertificateArray)?'certificate-btn clicked_btn':'certificate-btn'} onClick={()=>setData(CompletionCertificateArray)}>Completion Certificates</button>
       </div>
 
       <Slider {...setting} >

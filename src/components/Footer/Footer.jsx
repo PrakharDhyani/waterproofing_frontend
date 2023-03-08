@@ -3,6 +3,7 @@ import "./Footer.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     useEffect(() => { 
@@ -57,11 +58,14 @@ export default function Footer() {
             <div className="contact">
                 <ul className="footerLi">
                     <li><h3>CONTACT US</h3></li>  
-                    <li><i class="fa-solid fa-location-pin"></i> Plot No-48, FF 1, Hasanpur,IP Extn-Delhi-110092</li>
-                    <li><i class="fa-solid fa-phone"></i> 011-41574032</li>
-                    <li><i class="fa-solid fa-phone"></i> 09873004032</li>
-                    <li><i class="fa-solid fa-link"></i> <a href="www.completewaterproofing.org"> www.completewaterproofing.org</a></li>
-                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:info@company.com"> cwsi_wp@yahoo.com</a></li>
+                    <li><i className="fa-solid fa-location-pin"></i> Plot No-48, FF 1, Hasanpur,IP Extn-Delhi-110092</li>
+                    <li><i className="fa-solid fa-phone"></i> 011-41574032</li>
+                    <li><i className="fa-solid fa-phone"></i> 09873004032</li>
+                    <li><i className="fa-solid fa-link"></i> <a href ="http://www.completewaterproofing.in/" target='_blank' > www.completewaterproofing.org</a></li>
+                     <li><a href="tel:+919873004032"><i className ="fa-solid fa-phone" style={{paddingRight:"5px"}}></i> +91 9873004032</a></li>
+                    <li><a href="https://www.google.com/maps?q=28.6357001,77.3107258"><i className="fa-solid fa-location-crosshairs" style={{paddingRight:"5px"}}></i> Location</a></li>
+                    <li><a target='_blank' href="https://wa.me/+919873004032" ><i className="fa-brands fa-whatsapp"style={{paddingRight:"5px"}}></i> whatsapp</a></li>
+                    <li><a href="mailto:cwsi_wp@yahoo.com"><i className="fa-solid fa-envelope" style={{paddingRight:"5px"}}></i> cwsi_wp@yahoo.com</a></li>  
                 </ul>
             </div>
               
