@@ -8,6 +8,7 @@ import ABoutCeo from './components/AboutCeo/ABoutCeo';
 import ClientPage from './Pages/ClientPage/ClientPage';
 import ServicesPage from './Pages/ServicesPage/ServicesPage'
 import ProductsPage from './Pages/ProductsPage/ProductsPage'
+import Gallery from './Pages/Gallery/Gallery';
 
  const router = createBrowserRouter([
   {
@@ -51,6 +52,11 @@ import ProductsPage from './Pages/ProductsPage/ProductsPage'
   {
     path: "/products",
     element:<ProductsPage/> ,
+    exact: true
+  },
+  {
+    path: "/gallery",
+    element:<Gallery/> ,
     exact: true
   },
 ]);

@@ -45,7 +45,7 @@ export default function Navbar1({page}) {
                         <Link className="nav-link Navli"  to="/certificates">Certificate</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link Navli" href="/">Gallery</a>
+                        <Link className="nav-link Navli" to="/gallery">Gallery</Link>
                     </li> 
                     <li className="nav-item dropdown" >
                         <Link className="nav-link Navli dropdown-toggle" to="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Contacts</Link>
