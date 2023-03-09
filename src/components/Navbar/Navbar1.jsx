@@ -28,7 +28,7 @@ export default function Navbar1({page}) {
                         </ul>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link Navli"  href="/">Concepts</a>
+                        <Link className="nav-link Navli"  to="/concepts">Concepts</Link>
                     </li>
                     <li className="nav-item ">
                         <Link className="nav-link  Navli"  to="/services" >

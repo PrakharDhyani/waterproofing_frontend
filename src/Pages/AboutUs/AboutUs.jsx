@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import AboutSection2 from "../../components/AboutSection2/AboutSection2"
 import AboutSection4 from '../../components/AboutSection4/AboutSection4'
 import Footer from '../../components/Footer/Footer'

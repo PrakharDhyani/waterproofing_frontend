@@ -8,6 +8,8 @@ import ABoutCeo from './components/AboutCeo/ABoutCeo';
 import ClientPage from './Pages/ClientPage/ClientPage';
 import ServicesPage from './Pages/ServicesPage/ServicesPage'
 import ProductsPage from './Pages/ProductsPage/ProductsPage'
+import Concepts from './Pages/Concepts/Concepts';
+
 
  const router = createBrowserRouter([
   {
@@ -51,6 +53,11 @@ import ProductsPage from './Pages/ProductsPage/ProductsPage'
   {
     path: "/products",
     element:<ProductsPage/> ,
+    exact: true
+  },
+  {
+    path: "/concepts",
+    element: <Concepts/> ,
     exact: true
   },
 ]);
