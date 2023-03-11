@@ -33,7 +33,7 @@ export default function Concepts() {
         </div>
       </div>
       <div id = "WaterSources" className='ConceptCard' >
-        <h2 style={{ textAlign: "center", margin: "2rem" }} >WATER SOURCES</h2>
+        <h2 style={{ textAlign: "center" }} >WATER SOURCES</h2>
           Generally water intrusion into any structure due to
           <ol>
           <li>Rain water for above ground waterproofing.</li>
@@ -56,7 +56,7 @@ export default function Concepts() {
           </ol>
       </div>
       <div id="WaterProofingIndia" className='ConceptCard' >
-        <h2 style={{ textAlign: "center", margin: "2rem" }} >	Waterproofing in India</h2>
+        <h2 style={{ textAlign: "center",  }} >	Waterproofing in India</h2>
         The concept of waterproofing started with building construction activities in India. People in the very primitive age were aware of waterproofing.
           Activities:
         In India the Conventional Waterproofing methods were being used. Mudfuska &amp; clay were used in conventional waterproofing method. Bitumen uses of Waterproofing had a very long history.
@@ -82,7 +82,7 @@ export default function Concepts() {
         As time passes various products and modern construction techniques are implemented. Some of common products are used for waterproofing are given below;
       </div>
       <div id="waterProofingProducts" className='ConceptCard'>
-        <h2 style={{ textAlign: "center", margin: "2rem" }} > Waterproofing Products </h2>
+        <h2 style={{ textAlign: "center" }} > Waterproofing Products </h2>
         <table>
           <tr>
             <td>Plastic </td>
@@ -191,7 +191,7 @@ export default function Concepts() {
            </ol>
       </div>
       <div id="selectProduct" className='ConceptCard'>
-          <h2 style={{ textAlign: "center", margin: "2rem" }}> HOW TO SELECT RIGHT PRODUCT?</h2>
+          <h2 style={{ textAlign: "center"  }}> HOW TO SELECT RIGHT PRODUCT?</h2>
             <p >All manufacturer recommonds their products for various applications. The designer and project consultant are refering to product selection based on design speculations, climate, temerature etc. The product slection shall consider the following;</p>
             <ul >
             <li>Climate</li>
