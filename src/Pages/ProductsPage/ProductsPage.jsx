@@ -11,9 +11,7 @@ export default function ProductsPage() {
             <h3>Products we Offer</h3>
 
             <div className='row '>
-
                 <a className='products-item col-md-2 col-sm-3' href='#pvcMembrane'>
-
                     <div className='products-item-inner'>
                         <div className='products-item-logo'>
                             <i className = "fa-solid fa-umbrella"></i>

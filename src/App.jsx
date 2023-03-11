@@ -9,7 +9,7 @@ import ClientPage from './Pages/ClientPage/ClientPage';
 import ServicesPage from './Pages/ServicesPage/ServicesPage'
 import ProductsPage from './Pages/ProductsPage/ProductsPage'
 import Concepts from './Pages/Concepts/Concepts';
-
+import Gallery from './Pages/Gallery/Gallery';
 
  const router = createBrowserRouter([
   {
@@ -55,9 +55,13 @@ import Concepts from './Pages/Concepts/Concepts';
     element:<ProductsPage/> ,
     exact: true
   },
+   {
+     path: "/concepts",
+     element: <Concepts />,
+   },
   {
-    path: "/concepts",
-    element: <Concepts/> ,
+    path: "/gallery",
+    element:<Gallery/> ,
     exact: true
   },
 ]);
@@ -66,7 +70,7 @@ import Concepts from './Pages/Concepts/Concepts';
 
 function App() {
   return (
-    <div className="App">
+    <div className ="App">
       <RouterProvider router={router}/>
   </div>
   );

@@ -140,3 +140,10 @@
     }
 
 }
+@media only screen and (max-width: 580px) {
+.products-item{
+    width: 70.5%!important;
+    margin: 0 auto;
+}
+  
+}

@@ -1,0 +1,66 @@
+.ConceptWaterProofing{
+    display: flex;
+    width: 100%;
+    padding: 2% 10%;   
+}
+.ConceptWaterProofingInfo{
+    width: 60%;
+    text-align: center;
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ConceptWaterProofingImage{
+    width: 40%;
+}
+.ConceptWaterProofingImage > img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    padding: 5%;
+}
+.Recommendations{
+    background:rgb(153, 215, 238);
+    width: 100%;
+    padding: 2% 10%;
+}
+.Recommendations a{
+    text-decoration: none;
+    color: black;
+}
+.RecommendationCard{
+    border: 2px solid black;
+    padding: 5%;
+    margin: 5%;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.RecommendationCards{
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 2rem;
+}
+
+.RecommendationCard:hover{
+    background : white;
+    color: rgb(37, 190, 251);
+    /* font-size: large; */
+    font-weight: 900;
+    scale: 1.1;
+}
+
+.ConceptCard{
+    padding: 0% 10%;
+}
+table td{
+  border: 1px solid #d6c9c9;
+  padding: 20px;
+}
+table{
+    width: 100%;
+    margin: 2rem auto;
+}
